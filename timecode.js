@@ -23,14 +23,14 @@ function myCountdown(myCountdownDate, elementID) {
     }
   }
 
-  myCountdown(new Date("Dec 12, 2023 16:00:00"), "CM2104");
-  myCountdown(new Date("Dec 13, 2023 16:00:00"), "CM2112");
-  myCountdown(new Date("Nov 30, 2023 16:00:00"), "CM2115");
-  myCountdown(new Date("Dec 5, 2023 16:00:00"), "CM3109");
+  myCountdown(new Date("Apr 10, 2024 16:00:00"), "CM2101");
+  myCountdown(new Date("Apr 16, 2024 16:00:00"), "CM2110");
+  myCountdown(new Date("Apr 24, 2024 16:00:00"), "CM2104");
+  // myCountdown(new Date("Dec 5, 2023 16:00:00"), "CM2116");
 
 // Update the count down every 1 second
-var x = setInterval(function(){myCountdown(new Date("Dec 12, 2023 16:00:00"), "CM2104")}, 1000);
-var y = setInterval(function(){myCountdown(new Date("Dec 13, 2023 16:00:00"), "CM2112")}, 1000);
-var z = setInterval(function(){myCountdown(new Date("Nov 30, 2023 16:00:00"), "CM2115")}, 1000);
-var a = setInterval(function(){myCountdown(new Date("Dec 5, 2023 16:00:00"), "CM3109")}, 1000);
+var x = setInterval(function(){myCountdown(new Date("Apr 10, 2024 09:00:00"), "CM2101")}, 1000);
+var z = setInterval(function(){myCountdown(new Date("Apr 16, 2024 16:00:00"), "CM2110")}, 1000);
+var y = setInterval(function(){myCountdown(new Date("Apr 24, 2024 16:00:00"), "CM2104")}, 1000);
+// var a = setInterval(function(){myCountdown(new Date("Dec 5, 2023 16:00:00"), "CM2116")}, 1000);
 
