@@ -22,15 +22,14 @@ function myCountdown(myCountdownDate, elementID) {
       document.getElementById(elementID).innerHTML = "EXPIRED";
     }
   }
-
-  myCountdown(new Date("Apr 10, 2024 16:00:00"), "CM2101");
   myCountdown(new Date("Apr 16, 2024 16:00:00"), "CM2110");
+  myCountdown(new Date("Apr 23, 2024 10:00:00"), "CM2101");
   myCountdown(new Date("Apr 24, 2024 16:00:00"), "CM2104");
   myCountdown(new Date("Apr 29, 2024 10:00:00"), "CM2116");
 
 // Update the count down every 1 second
-var x = setInterval(function(){myCountdown(new Date("Apr 10, 2024 09:00:00"), "CM2101")}, 1000);
 var z = setInterval(function(){myCountdown(new Date("Apr 16, 2024 16:00:00"), "CM2110")}, 1000);
+var x = setInterval(function(){myCountdown(new Date("Apr 23, 2024 10:00:00"), "CM2101")}, 1000);
 var y = setInterval(function(){myCountdown(new Date("Apr 24, 2024 16:00:00"), "CM2104")}, 1000);
 var a = setInterval(function(){myCountdown(new Date("Apr 29, 2024 10:00:00"), "CM2116")}, 1000);
 
